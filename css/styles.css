@@ -1,5 +1,6 @@
 body {
     font-family: "Roboto" , sans-serif;
+    color: #434455;
     background-color: #fff;
 }
 
@@ -69,7 +70,7 @@ nav .studio {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
+    /* text-align: center; */
     color: #fff;
 }
 
@@ -94,10 +95,10 @@ nav .studio {
 .adv-title {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
-    height: 1px;
-    position: absolute;
+    /* height: 1px; */
+    /* position: absolute; */
     white-space: nowrap;
-    width: 1px;
+    /* width: 1px; */
 
 }
 
