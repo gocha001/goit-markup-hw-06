@@ -21,7 +21,7 @@ ul {
     text-decoration: none;
 }
 
-nav .studio {
+.studio {
     color: #2e2f42;
 }
 
@@ -39,12 +39,12 @@ nav .studio {
     color: #404bbf;
 }
 
-.address {
+address {
     list-style-type: none;
     font-style: normal;
 }
 
-.address a {
+.addr-list a {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -53,8 +53,8 @@ nav .studio {
     text-decoration: none;
 }
 
-.address a:hover,
-.address a:focus {
+.addr-list a:hover,
+.addr-list a:focus {
     color: #404bbf;
 }
 
@@ -65,15 +65,16 @@ nav .studio {
     background: #2e2f42;
 }
 
-.title h1 {
+.title-text {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #fff;
+    text-align: center;
 }
 
-.title button {
+.title-btn {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -83,8 +84,8 @@ nav .studio {
 
 }
 
-.title button:hover,
-.title button:focus {
+.title-btn:hover,
+.title-btn:focus {
     background: #404bbf;
     cursor: pointer;
 }
@@ -127,9 +128,9 @@ nav .studio {
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    text-transform: capitalize;
 }
-
-
 
 .our-team-item {
     background: #fff;
@@ -159,6 +160,8 @@ nav .studio {
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .port-item {
