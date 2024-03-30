@@ -140,6 +140,7 @@ p {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   padding: 16px 32px;
+  cursor: pointer;
 }
 
 .title-btn:hover,
@@ -154,8 +155,18 @@ p {
   padding-bottom: 120px;
 }
 
-.advantages-title {
-  visibility: hidden;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .advantages-list {
