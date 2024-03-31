@@ -122,7 +122,7 @@ p {
   color: #fff;
   max-width: 496px;
   margin: 0 auto;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
 }
 
 .title-btn {
@@ -175,7 +175,7 @@ p {
 }
 
 .advantages-item {
-  width: 264px;
+  width: ((100%-72px)/4);
 }
 
 .advantages-subtitle {
@@ -222,6 +222,7 @@ p {
 .our-team-item {
   background: #fff;
   border-radius: 0 0 4px 4px;
+  width: ((100%-72)/4);
 }
 
 .our-team-img {
@@ -241,7 +242,6 @@ p {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 
@@ -252,7 +252,6 @@ p {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
-  margin-bottom: 32px;
 }
 
 /* portfolio */
@@ -324,6 +323,7 @@ p {
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
+  margin-right: 0;
 }
 .footer-studio {
   color: #f4f4fd;
