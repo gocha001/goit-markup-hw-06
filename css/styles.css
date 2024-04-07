@@ -364,6 +364,8 @@ p {
 
 .port-item {
   background: #fff;
+  box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08),
+    0 1px 1px rgba(46, 47, 66, 0.16), 0 2px 1px rgba(46, 47, 66, 0.08);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -394,8 +396,7 @@ p {
 
 .port-item:hover .overlay {
   transform: translateY(0);
-  box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08),
-    0 1px 1px rgba(46, 47, 66, 0.16), 0 2px 1px rgba(46, 47, 66, 0.08);
+  
 }
 
 .port-img {
