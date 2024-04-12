@@ -2,6 +2,8 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 ul {
@@ -128,7 +130,6 @@ p {
 
 .title {
   background: #2e2f42;
-  max-width: 1440px;
   padding-top: 188px;
   padding-bottom: 188px;
   margin: 0 auto;
