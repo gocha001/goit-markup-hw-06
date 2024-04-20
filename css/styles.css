@@ -704,11 +704,11 @@ p {
 
 .check-text {
   font: 400 12px / 1.16667 "Roboto", sans-serif;
-letter-spacing: 0.04em;
-color: #8e8f99;
-display: flex;
-align-items: center;
-gap: 8px;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .check-text span {
